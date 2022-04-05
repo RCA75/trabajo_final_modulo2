@@ -24,10 +24,11 @@
 
 <header>
     <!-- Nadvar -->
-    <div class=" row">
+        <div class=" row">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark pr-5">
                 <img class="imagen-viajes" src="assets/img/viajes.svg" alt="logo" class="logo-viajes">  
                  <div class="texto-viajes">
+                   
                 <a class="nadbar-brand" href="#"></a>
                 <p>Viajes Chile</p>
                  </div>
@@ -42,14 +43,38 @@
                       <a class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
                       <a class="nav-link active" aria-current="page" href="#contactos">Contacto</a>
                        </div>
-                  </div>
+                  </div>                    
         </nav>
+    
     </div>
 
     <!-- Carrusel -->
-
-
-
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url('assets/img/carousel1.jpg')">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" style="background-image: url('assets/img/carousel2.jpg')">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" style="background-image: url('assets/img/carousel3.jpg')">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 </header>
 
 <body>
