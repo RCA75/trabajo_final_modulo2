@@ -160,8 +160,8 @@ max-width: 2.5%!important;
 }
 
 .linea {
-  border-top: 1px solid #1798c1;
-  height: 2px;
+  border-top: 3px solid #1798c1!important;
+  height: 3px;
   padding: 0;
   margin: 10px auto 1 0;
 }
@@ -239,7 +239,7 @@ hr {
 
 
 .fondo-footer {
-  background-color: #1798c1;
+  background-color: #1798c1!important;
 }
 
 h2 {
