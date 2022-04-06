@@ -166,6 +166,16 @@ max-width: 2.5%!important;
   margin: 10px auto 1 0;
 }
 
+.espacio {
+  height: 10px;
+  padding: 0;
+  margin: 10px auto 1 0;
+}
+
+.mb-3 {
+  text-align: left;
+}
+
 h1 {
   color: white!important;
   padding-top: 50px;
@@ -256,7 +266,8 @@ h3 {
   text-align: center;
   font-size:2.5em!important;
   vertical-align: middle;
-  padding-top: 300px;
+  padding-top: 50px;
+  padding-bottom: 15px;
 }
 
 h4 {
